@@ -1,0 +1,474 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?jdzz2x');
+  src:  url('../fonts/icomoon.eot?jdzz2x#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?jdzz2x') format('truetype'),
+    url('../fonts/icomoon.woff?jdzz2x') format('woff'),
+    url('../fonts/icomoon.svg?jdzz2x#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* latin-ext */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zxLwFvNxpkIoVzlXSkPSYkA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z04GofcKVZz6wtzX_QUIqsI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xJwNa6kgmw9HIHjUBPkzL2f3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xKdGPpWTn2kPFru4k7T0T-v3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xN9i7v7U2vZkHC55NWxtqfn3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xK1ueDcgZDcfV3TWANvdPLj3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xC3qj1XlvLGj0jktnJzWu233rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xC8hAQ4ocbp44gFQt8tMfcH3rGVtsTkPsbDajuO5ueQw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(https://fonts.gstatic.com/s/opensanscondensed/v10/gk5FxslNkTTHtojXrkp-xBEur64QvLD-0IbiAdTUNXE.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+$wfont: #EEE;
+$bfont: #333;
+$afont: #FF9800;
+$headerff: 'Josefin Sans', sans-serif;
+$breadff: 'Open Sans Condensed';
+$firstcover: url('../img/pexels-background-herodark.jpg');
+$secondcover: url('../img/pexels-background-aboutdark.jpg');
+$thirdcover: url('../img/pexels-projects.jpg');
+$xxs: 350px;
+$xs: 480px;
+$s: 600px;
+$m: 1050px;
+
+$heightl: 1000px;
+$heightm: 900px;
+$heights: 700px;
+$heightxs: 450px;
+
+@mixin flex {
+  display: flex;     
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+}
+@mixin backgroundCover {
+  background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;  
+}
+
+
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope-o:before {
+  content: "\f003";
+}
+.icon-linkedin-square:before {
+  content: "\f08c";
+}
+.icon-envelope:before {
+  content: "\f0e0";
+}
+.icon-linkedin:before {
+  content: "\f0e1";
+}
+
+body {
+  &, & > * {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    min-width: 300px;
+    color: $wfont;
+  }
+
+  & > * {
+    width: 100vw;
+    @include backgroundCover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+}
+
+h1, h2, h3, noscript {
+  font-family: $headerff;
+  font-weight: 300;
+}
+
+a, h1, h2, h3 {
+  text-shadow: 2px 2px #444444;
+}
+p {
+  font-family: $breadff;
+  text-shadow: 1px 1px #444444;
+}
+
+// FLEXBOX STYLING START
+
+.flex {
+  @include flex;
+}
+  
+.column {
+  -webkit-flex-flow: wrap column;
+  flex-flow: wrap column;   
+}
+
+.row { 
+  -webkit-flex-flow: wrap row;
+  flex-flow: wrap row; 
+}
+
+// FLEXBOX & COVER STYLING END
+// HERO STYLING START
+
+#hero {
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-image: $firstcover;
+
+  header {
+    align-items: center;
+
+    &:not(noscript) {
+      opacity: 0;
+      animation: fadein 2s;
+    }
+
+
+    > * {
+      margin: 0;
+      -webkit-transition: font-size 1s;
+      -moz-transition: font-size 1s;
+      -o-transition: font-size 1s;
+      transition: font-size 1s;
+    }
+
+    > h1 {
+      font-size: 400%;
+      letter-spacing: 5px;
+
+      @media screen and (max-width : $xs) {
+        font-size: 300%;
+      }
+
+      @media screen and (max-width : $xxs) {
+        font-size: 200%;
+      }
+    }
+
+    > h2 {
+      letter-spacing: 9px;
+
+      @media screen and (max-width : $xs) {
+        font-size: 135%;
+        letter-spacing: 7px;
+      }
+
+      @media screen and (max-width : $xxs) {
+        font-size: 110%;
+        letter-spacing: 3px;
+      }
+    }
+  }
+
+  nav {
+    font-family: $headerff;
+    opacity: 0;
+
+    a {
+      min-width: 180px;
+      line-height: 65px;
+      text-align: center;
+      text-decoration: none;
+      box-shadow: inset 1px 1px #444444, 1px 1px #444444;
+      font-weight: 300;
+      font-size: 150%;
+      text-transform: lowercase;
+      letter-spacing: 2px;
+      border-radius: 4px;
+      border: thin solid $wfont;
+      color: $wfont;
+      margin: 0 10px;
+      transition: all .4s ease-in-out;
+      -o-transition: all 500ms ease-in-out; 
+      -moz-transition: all 500ms ease-in-out;
+      -webkit-transition: all 500ms ease-in-out;
+
+      @media screen and (max-width: $xs) {
+        width: 80%;
+        margin: auto;
+      }
+
+      &:hover {
+        border: thin solid $afont;
+        transform: scale(1.05);
+      }
+
+      &:not(:first-child) {
+        @media screen and (max-width: $xs) {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+} 
+
+// HERO STYLING END
+
+// ABOUT AND PROJECTS SHARED STYLING
+
+#about > h2, #projects > h2 {
+  font-size: 340%;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: lowercase;
+  width: 100%;
+  max-height: 10vh;
+  margin: 0;
+  padding-top: 40px;
+}
+
+#about > div, #projects > div {
+  justify-content: space-around;
+  height: 85vh;
+} 
+
+// ABOUT STYLING START
+
+#about {
+  height: 100vh;
+  background-image: $secondcover;
+  box-shadow: inset 1px 15px 20px -6px #111, inset 1px -15px 20px -6px #111;
+
+  div {
+    align-items: center;
+
+    > div:first-of-type {
+      max-width: 500px;
+      font-size: 140%;
+      text-align: justify;
+
+      @media screen and (max-width: $m) {
+        margin: 0 30px;
+      }
+
+      @media screen and (max-height: $heightm) {
+        font-size: 120%;
+      }
+
+      @media screen and (max-height: $heightxs) {
+        font-size: 100%;
+      }
+    }
+
+    > div:nth-of-type(2) {
+      max-width: 400px;
+      max-height: 400px;
+
+      @media screen and (max-height: $heightm) {
+        max-width: 300px;
+      }
+
+      @media screen and (max-height: $heights) {
+        max-width: 25%;
+      }
+
+      @media screen and (max-height: $heightxs) {
+        display: none;
+      }
+
+
+      img {
+        border-radius: 50%;
+        width: 100%;
+        height: auto;
+        box-shadow: 5px 5px 5px $bfont;
+      }
+
+      @media screen and (max-width: $m) {
+        margin: 20px 20px 0 20px;
+      } 
+    }
+
+    > div:last-child {
+      min-height: 80px;
+
+      a {
+        text-decoration: none;
+
+        font-weight: 300;
+        font-size: 350%;
+        
+        padding: 20px 20px;
+        margin: 0 20px;
+
+        border-radius: 4px;
+
+        color: $wfont;
+        margin: 0 10px;
+        transition: all .4s ease-in-out;
+        -o-transition: all 500ms ease-in-out; 
+        -moz-transition: all 500ms ease-in-out;
+        -webkit-transition: all 500ms ease-in-out;
+
+        @media screen and (max-height: $heightm) {
+          font-size: 250%;
+        }
+
+        &:hover {
+          color: $afont;
+        }
+
+
+      }
+    }
+  }
+} 
+
+// ABOUT STYLING END
+// PROJECTS STYLING START 
+
+#projects {
+  height: 100vh;
+  background-image: $thirdcover;
+
+  div {
+    align-items: center;
+
+    @media screen and (max-height: $heights) {
+      align-items: flex-start;
+      margin-top: 20px;
+    }
+
+    > div {
+      max-width: 300px;
+      height: 500px;
+      text-align: center;
+
+      @media screen and (max-height: $heights) {
+        max-width: 100px;
+        height: 70px;
+      }
+
+      @media screen and (max-height: $heightm) and (max-width: $m) {
+        max-width: 125px;
+        height: 100px;
+      }
+      
+      @media screen and (max-width: 700px) {
+        max-width: 200px;
+      }
+
+      @media screen and (max-width: $xs) {
+        height: 50px;
+      }
+
+      a {
+        text-decoration: none;
+        color: $wfont;
+
+        &:hover {
+          color: $afont;
+        }
+      }
+
+      img {
+        width: 100%;
+        height: auto;
+        border: thin solid $bfont;
+        border-radius: 20px;
+        box-shadow: 2px 2px 2px #111;
+        transition: all .5s ease-in-out;
+        -o-transition: all 500ms ease-in-out; 
+        -moz-transition: all 500ms ease-in-out;
+        -webkit-transition: all 500ms ease-in-out;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+
+      p {
+        @media screen and (max-height: $heights), screen and (max-width: $xs) {
+          display: none;
+        }
+      }
+    }
+  }
+}
